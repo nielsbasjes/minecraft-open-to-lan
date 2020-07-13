@@ -46,6 +46,32 @@ So now you can setup a permanent port forwarding from the outside to the system 
 
 If you want to put this on a server in your home beware that if you open 2 or more minecrafts to lan this setup completely breaks down.
 
+Running this
+---
+You need
+- A Linux based desktop (I have Ubuntu)
+- python installed
+- haproxy installed
+- Minecraft installed
+
+Running this
+- Go to the directory of this code.
+- ./run.sh
+- Start Minecraft and "Open to LAN" your game
+- Others should be able to connect on port 6666 to your machine.
+  - Perhaps you need to open your firewall for this port to actually do this.
+
+Do it work?
+---
+I ran https://github.com/Dinnerbone/mcstatus against the demo version of Minecraft 1.16.1 on the fixed port created this script
+
+    # mcstatus 10.11.12.13:6666 status
+    version: v1.16.1 (protocol 736)
+    description: "{'text': 'Player - Demo World'}"
+    players: 1/8 ['Player (00000000-0000-0000-0000-000000000000)']
+
+Can you actually play the game? Don't know, haven't tried yet.
+
 License
 =======
 
