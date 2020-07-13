@@ -61,7 +61,7 @@ Running this
 - Others should be able to connect on port 6666 to your machine.
   - Perhaps you need to open your firewall for this port to actually do this.
 
-Do it work?
+Does it work?
 ---
 I ran https://github.com/Dinnerbone/mcstatus against the demo version of Minecraft 1.16.1 on the fixed port created this script
 
