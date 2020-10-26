@@ -14,17 +14,18 @@ If you run Minecraft on your local machine and open it to LAN other people in yo
 
 This is very cool, but what if your friend wants to join in and he lives in a different network?
 
-The main problem here is that minecraft uses a random TCP port number to host the local server on.
+The main problem here is that minecraft uses a random TCP port number to host the local server on and you (usually) get a random IP address for you laptop.
 
 So a simple port forward in your router would need to be setup everytime you start the server because both IP and port will have changed.
 
-The real solution is to setup a minecraft server where you can simply specifiy the port number.
+The real solution is to setup a minecraft server where you can simply specifiy the port number and make the IP address fixed.
 
 This is an experiment to see if a server is really needed.
 
 The 'nicest' solution for this is if the Minecraft client would have a config setting where you can specify the port on which the  
-"open to lan" server should run on...  but that is not there.
+"open to lan" server should run on...  but that is not there in the GUI.
 
+NOTE: There is a commandline option that does this: https://minecraft.gamepedia.com/Commands/publish
 
 What is the idea?
 ---
